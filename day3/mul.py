@@ -8,7 +8,6 @@ class Mul:
         self.mul_lines = []
         self.enabled = True
 
-
     def parse_file(self, filename):
         with open(filename, 'r') as f:
             lines = f.readlines()
